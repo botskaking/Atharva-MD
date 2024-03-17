@@ -4,6 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
+"logo": "https://i.imgur.com/yh0hB5U.jpeg",
   "repository": "https://github.com/botskaking/Atharva-MD",
   "stack": "container",
   "env": {
