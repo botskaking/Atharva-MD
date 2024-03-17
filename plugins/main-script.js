@@ -28,7 +28,7 @@ let handler = async function (m, { conn, __dirname }) {
       await conn.relayMessage(m.chat,  {
         requestPaymentMessage: {
           currencyCodeIso4217: 'INR',
-          amount1000: 69000,
+          amount1000: 20000,
           requestFrom: m.sender,
           noteMessage: {
           extendedTextMessage: {
