@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (GURU-BOT)",
+  "name": "whatsapp-bot Atharva MD",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Guru322/GURU-BOT",
+  "repository": "https://github.com/botskaking/Atharva-MD",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
