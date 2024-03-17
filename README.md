@@ -1,6 +1,6 @@
 <p align="center">  
   <a href="https://youtu.be/WcA7GZuaN0A">
-    <img alt="Guru" height="300" src="https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg">
+    <img alt="Guru" height="300" src="https://i.imgur.com/yh0hB5U.jpeg">
     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Mont&size=30&pause=1000&color=F70000&center=true&vCenter=true&random=false&width=435&lines=Atharva+MD;A+MultiDevice;Whatsapp+Bot;Modified+Version+Of;Guru+MD" alt="Typing SVG" /></a>
   </a>
 </p>
