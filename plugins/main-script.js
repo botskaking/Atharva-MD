@@ -1,4 +1,4 @@
-import { promises } from 'fs';
+2import { promises } from 'fs';
 import { join } from 'path';
 import axios from 'axios'; 
 
@@ -18,7 +18,7 @@ let handler = async function (m, { conn, __dirname }) {
       const formattedInfo = `
 📂 Repository Name: ${repoData.name}
 📝 Description: ${repoData.description}
-👤 Owner: ${repoData.owner.login}
+👤 Owner: Ironman, Atharva
 ⭐ Stars: ${repoData.stargazers_count}
 🍴 Forks: ${repoData.forks_count}
 🌐 URL: ${repoData.html_url}
