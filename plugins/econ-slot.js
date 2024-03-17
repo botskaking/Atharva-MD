@@ -10,7 +10,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let fa = `🟥 *Provide the amount of gold to bet*
 
 *Example :
-${usedPrefix + command} 500*`.trim()
+${usedPrefix + command} 100*`.trim()
     if (!args[0]) throw fa
     if (isNaN(args[0])) throw fa
     let amount = parseInt(args[0])
@@ -18,11 +18,11 @@ ${usedPrefix + command} 500*`.trim()
     let users = global.db.data.users[m.sender]
     let time = users.lastslot + 10000
     if (new Date - users.lastslot < 10000) throw `⏳ Wait *${msToTime(time - new Date())}* to use again`
-    if (amount < 500) throw `🟥 *You can't bet gold less than 500*`
+    if (amount < 100) throw `🟥 *You can't bet gold less than 100*`
     if (users.credit < amount) {
         throw `🟥 *You do not have enough gold to bet*`
     }
-    if (amount > 100000) throw `🟥 *You can't bet gold more than 100000*`
+    if (amount > 1000000) throw `🟥 *You can't bet gold more than 1000000*`
 
     let emojis = ["🕊️", "🦀", "🦎"];
     let a = Math.floor(Math.random() * emojis.length);
@@ -70,7 +70,7 @@ ${end}`)
 }
 handler.help = ['slot <amount>']
 handler.tags = ['game']
-handler.command = ['slot']
+handler.command = ['slot','bet']
 
 handler.group = true
 
