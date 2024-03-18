@@ -13,7 +13,6 @@ let handler = async (m, { conn, text }) => {
   }
 
   const message = `
-*Image:* ${json.image}
 *Name:* ${json.name}
 *ID:* ${json.id}
 *Type:* ${json.type}
