@@ -13,6 +13,7 @@ let handler = async (m, { conn, text }) => {
   }
 
   const message = `
+*Image:* ${json.image}
 *Name:* ${json.name}
 *ID:* ${json.id}
 *Type:* ${json.type}
@@ -26,7 +27,7 @@ let handler = async (m, { conn, text }) => {
 };
 
 handler.help = ['pokedex <pokemon>'];
-handler.tags = ['tools'];
-handler.command = /^pokemon/i;
+handler.tags = ['anime'];
+handler.command = /^pokedex/i;
 
 export default handler;
