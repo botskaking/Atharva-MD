@@ -117,22 +117,19 @@ SUPPORT GROUP: <a href="https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp"><img a
 <div><button id="boton" type="button">Baileys - By WhiskeySockets & adiwajshing</button></div>
 <a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
 
-<div><button id="boton" type="button">Base  - By FG98F</button></div>
-<a href="https://github.com/FG98F"><img src="https://github.com/FG98F.png" width="150" height="150" alt="adiwajshing"/></a>
-
 
 
 ## `Main Dev` 
 <a href="https://github.com/Guru322"><img src="https://github.com/Guru322.png" width="250" height="250" alt="Guru322"/></a>
   
-`GURU-BOT - By Guru322`
+`ATHARVA-BOT - By Ironman`
 </h2>
 
 ## `Modifers`
 <a href="https://github.com/botskaking"><img src="https://github.com/botskaking.png" width="250" height="250" alt="botskaking"/></a>
-Ironman </br>
+`Ironman` </br>
 <a href="https://github.com/hakerboy68"><img src="https://github.com/hakerboy68.png" width="250" height="250" alt="hakerboy68"/></a>
-  
+`ATHARVA`  
   
 ## 
 - This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
