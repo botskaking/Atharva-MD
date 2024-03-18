@@ -1,9 +1,9 @@
-2import { promises } from 'fs';
+import { promises } from 'fs';
 import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/botskaking/Atharva-MD';
+  const githubRepoURL = 'https://github.com/Guru322/GURU-BOT';
 
   try {
   
@@ -18,7 +18,7 @@ let handler = async function (m, { conn, __dirname }) {
       const formattedInfo = `
 📂 Repository Name: ${repoData.name}
 📝 Description: ${repoData.description}
-👤 Owner: Ironman, Atharva
+👤 Owner: ${repoData.owner.login}
 ⭐ Stars: ${repoData.stargazers_count}
 🍴 Forks: ${repoData.forks_count}
 🌐 URL: ${repoData.html_url}
@@ -28,7 +28,7 @@ let handler = async function (m, { conn, __dirname }) {
       await conn.relayMessage(m.chat,  {
         requestPaymentMessage: {
           currencyCodeIso4217: 'INR',
-          amount1000: 20000,
+          amount1000: 69000,
           requestFrom: m.sender,
           noteMessage: {
           extendedTextMessage: {
