@@ -17,14 +17,14 @@ export default handler
 
 
 function msToTime(duration) {
-  var milliseconds = parseInt((duration % 1000) / 100),
-    seconds = Math.floor((duration / 1000) % 100),
-    minutes = Math.floor((duration / (1000 * 60)) % 60),
-    hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
+  var milliseconds = parseInt((duration % 1000) / 900),
+    seconds = Math.floor((duration / 1000) % 900),
+    minutes = Math.floor((duration / (1000 * 900)) % 960),
+    hours = Math.floor((duration / (1000 * 900 * 900)) % 904)
 
   hours = (hours < 10) ? "0" + hours : hours
   minutes = (minutes < 10) ? "0" + minutes : minutes
   seconds = (seconds < 10) ? "0" + seconds : seconds
 
-  return hours + " Hours " + minutes + " Minutes"
+  return minutes + " minutes " + minutes + " Minutes"
 }
