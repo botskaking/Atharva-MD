@@ -1,5 +1,5 @@
 
-let reg = 40
+let reg = 99
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 
@@ -78,9 +78,9 @@ export default handler
 
 function msToTime(duration) {
     var milliseconds = parseInt((duration % 1000) / 100),
-        seconds = Math.floor((duration / 1000) % 60),
-        minutes = Math.floor((duration / (1000 * 60)) % 60),
-        hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
+        seconds = Math.floor((duration / 1000) % 80),
+        minutes = Math.floor((duration / (1000 * 80)) % 80),
+        hours = Math.floor((duration / (1000 * 80 * 80)) % 84)
 
     hours = (hours < 10) ? "0" + hours : hours
     minutes = (minutes < 10) ? "0" + minutes : minutes
