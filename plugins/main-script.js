@@ -3,7 +3,7 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/Guru322/GURU-BOT';
+  const githubRepoURL = 'https://github.com/botskaking/Atharva-MD/';
 
   try {
   
@@ -18,7 +18,7 @@ let handler = async function (m, { conn, __dirname }) {
       const formattedInfo = `
 📂 Repository Name: ${repoData.name}
 📝 Description: ${repoData.description}
-👤 Owner: ${repoData.owner.login}
+👤 Owner: ATHARVA AND IRONMAN
 ⭐ Stars: ${repoData.stargazers_count}
 🍴 Forks: ${repoData.forks_count}
 🌐 URL: ${repoData.html_url}
@@ -28,7 +28,7 @@ let handler = async function (m, { conn, __dirname }) {
       await conn.relayMessage(m.chat,  {
         requestPaymentMessage: {
           currencyCodeIso4217: 'INR',
-          amount1000: 69000,
+          amount1000: 101000,
           requestFrom: m.sender,
           noteMessage: {
           extendedTextMessage: {
@@ -49,6 +49,6 @@ let handler = async function (m, { conn, __dirname }) {
 
 handler.help = ['script'];
 handler.tags = ['main'];
-handler.command = ['sc', 'repo', 'script'];
+handler.command = ['sc', 'repo', 'script', 'athmd'];
 
 export default handler;
